@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 int main() {
-  int x=137,flag=0,n=2;
+  int x,flag=0,n=2;
+  
+  printf("Enter x: ");
+  scanf("%d",&x);
+  
   if(x==1)
      printf("1 is neither prime nor composite");
   else if(x==2)
      printf("2 is prime");
-  else if
+  else
   {
     while(x>=n*n)
      {
