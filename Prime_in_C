@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+  int x=137,flag=0,n=2;
+  if(x==1)
+     printf("1 is neither prime nor composite");
+  else if(x==2)
+     printf("2 is prime");
+  else if
+  {
+    while(x>=n*n)
+     {
+       if(x%n==0)
+         flag=1;
+       n++;
+      }
+  
+   if(flag==1)
+     printf("%d is not prime",x);
+   else
+     printf("%d is prime",x);
+  }  
+  return 0;
+}
