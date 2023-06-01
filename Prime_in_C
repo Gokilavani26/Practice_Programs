@@ -10,13 +10,18 @@ int main() {
      printf("1 is neither prime nor composite");
   else if(x==2)
      printf("2 is prime");
+     
+     
   else
   {
+      //untill n*n greater than x, increment n
     while(x>=n*n)
      {
-       if(x%n==0)
+        
+       if(x%n==0) //if x is diisible by any value of n, thn not a prime
          flag=1;
        n++;
+       
       }
   
    if(flag==1)
